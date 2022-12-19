@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "fonds",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "qtteSouhaitee",
+						"type": "uint256"
+					}
+				],
+				"name": "FondsInsuffisants",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "TestAssert",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "qtte",
+						"type": "uint256"
+					}
+				],
+				"name": "TestCustomError",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "TestRequire",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "TestRevert",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Errors.sol": "Errors"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Errors.sol": {
+			"keccak256": "0x98befac86de9dab34dd02fb88c4d85eb0e3d03291a127a5c2d90f3d6c10d9eb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b7d525b7a9a23160eb851f86ccd135979f141bf8744deac54f56a0247f1eba1",
+				"dweb:/ipfs/QmS1pNfFgJLdHFZ3KGxXBTg3tfzzxT9m3aB3dQjBhLB2xv"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_token2",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount2",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "amount1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "amount2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "swap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token1",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token2",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"token/MonTokenSwap.sol": "TokenSwap"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"token/MonTokenSwap.sol": {
+			"keccak256": "0x7974fc2ecbbdf8547ee0592c8e1f5eca72437d70283b1a41990d1dc4ef0522e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d081379f3e5d28734fc2ec4457dbb94fb9afb161cb07725aa80579c43e60870",
+				"dweb:/ipfs/QmarDEyEn8wviup1X4VVYd8i8N92PHgZwxAqXzdmnyUMVR"
+			]
+		}
+	},
+	"version": 1
+}

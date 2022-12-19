@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "etatPublic",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fonctionExterne",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fonctionPublique",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Visibilite.sol": "Visibilite"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Visibilite.sol": {
+			"keccak256": "0xd12ebe173dea9af962abda7ae60562d190294f14e675ba52a79f1cc40014faa7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea53d9a210afd891b528369303bfe97a2cb1459d1c32e76275a9a199710c1771",
+				"dweb:/ipfs/QmSWNKYBtQ8MjEWQfFvY9h17YDxo9Nrp9sQ4K7thuq2qSf"
+			]
+		}
+	},
+	"version": 1
+}

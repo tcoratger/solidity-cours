@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "annule",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Statuts",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Enum.Statuts",
+						"name": "_statut",
+						"type": "uint8"
+					}
+				],
+				"name": "selectionStatut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "statuts",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Statuts",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0x202d15ceda54843b0cc79e6fdc780734319e94589f29c7e4aa1e357c26940d0e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d0043c00ec8b42ed3421b0751b9ae83c43108e3356a91ab4a10023e01574d4f",
+				"dweb:/ipfs/QmTMnnWEaFixBE1rYG13ft7xAih4fU699FEMr7NEhnJz4z"
+			]
+		}
+	},
+	"version": 1
+}

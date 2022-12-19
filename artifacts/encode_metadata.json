@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "montant",
+						"type": "uint256"
+					}
+				],
+				"name": "EncoreSignature",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"encode.sol": "encode"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"encode.sol": {
+			"keccak256": "0xdb27b71ce82a078bf312c26d40af63e13326b4fb577e8aa091ccb38e07e4b016",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9cc15cff6d691483e7bd576149aaa93747bce2c924b3c931fc84e81ae482f99",
+				"dweb:/ipfs/QmXUdrcDYMLAHniLza8vA2UhLH4rjBe3GsXhjpTu8ZVtNY"
+			]
+		}
+	},
+	"version": 1
+}

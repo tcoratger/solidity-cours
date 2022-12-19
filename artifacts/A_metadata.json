@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callTuple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTuple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tuple.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tuple.sol": {
+			"keccak256": "0xca51e412fcbd7bd4bb160d6d8504536bb1ac2cfccb0437f563e04de0eb7907b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2df7611b2d0d06a462c4f42375eee68a4234c3dccd7dc92b8c59a078b6b64b8",
+				"dweb:/ipfs/QmR8MKjXjuVds2e28qM5obXSmk535pQkQbdQ9nQzNLV5mU"
+			]
+		}
+	},
+	"version": 1
+}
